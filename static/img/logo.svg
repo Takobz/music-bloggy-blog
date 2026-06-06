@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect x="0" y="0" width="600" height="400" fill="#ffffff"/>
+
+  <g fill="none" stroke="#000" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Rough speech bubble outline -->
+    <path d="
+      M185 90
+      C145 95,120 130,112 170
+      C105 205,115 250,145 280
+      C170 305,205 320,245 320
+      C265 320,280 319,295 316
+
+      L335 346
+      L320 304
+
+      C365 294,395 270,415 240
+      C430 215,438 185,434 155
+      C429 120,408 92,378 72
+      C350 55,315 45,275 45
+      C240 45,208 58,185 90
+    "/>
+
+    <!-- Extra sketchy outline pass -->
+    <path d="
+      M175 100
+      C135 105,116 138,118 180
+      C121 235,150 290,210 312
+      C250 326,295 322,318 315
+
+      L345 338
+      L330 300
+
+      C380 287,408 258,425 225
+      C440 193,441 150,424 115
+      C404 76,360 52,300 48
+      C248 44,205 60,175 100
+    " opacity="0.7"/>
+
+    <!-- Musical note -->
+    <path d="M235 135 L235 225"/>
+    <path d="M315 135 L315 215"/>
+    <path d="M235 135 L315 136"/>
+
+  </g>
+
+  <!-- Rough note heads -->
+  <ellipse cx="228" cy="248" rx="17" ry="21"
+           fill="#000" transform="rotate(-12 228 248)"/>
+  <ellipse cx="308" cy="238" rx="17" ry="21"
+           fill="#000" transform="rotate(8 308 238)"/>
+
+  <!-- Hand-drawn dots -->
+  <circle cx="455" cy="300" r="11" fill="#000"/>
+  <circle cx="500" cy="298" r="10" fill="#000"/>
+  <circle cx="545" cy="301" r="11" fill="#000"/>
+</svg>
