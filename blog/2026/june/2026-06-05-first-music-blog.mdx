@@ -8,6 +8,7 @@ tags: [newmusicfriday]
 import SpotifyEmbeddedIframe from '@site/src/components/Spotify/spotify-embedded-iframe';
 import YouTubeEmbeddedInframe from '@site/src/components/YouTube/youtub-embedded-iframe';
 import SoundCloudEmbeddedIframe from '@site/src/components/SoundCloud/soundcloud-embedded-iframe';
+import LyricsTile from '@site/src/components/Common/LyricsTile'
 
 I love music so much that I decided to yap about it and give my friends a break from long WhatsApp messages.
 
@@ -27,15 +28,34 @@ This gonna be fun!!
 
 Spotify
 
-<SpotifyEmbeddedIframe />
+<SpotifyEmbeddedIframe 
+    embedUrl='https://open.spotify.com/embed/track/6J6gLEd9QLMCEQEG6NQFBc'
+/>
 
 
 YouTube
 
-<YouTubeEmbeddedInframe />
+<YouTubeEmbeddedInframe 
+    embedUrl='https://www.youtube.com/embed/VkVzfOVq_Vc'
+    startStampInSeconds={120}
+/>
 
 SoundCloud
 
-<SoundCloudEmbeddedIframe />
+<SoundCloudEmbeddedIframe
+    embedUrl="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2021125189"
+/>
 
+
+## Quoting Lyrics
+
+This is how quoted lyrics will look like:
+
+<LyricsTile href='https://genius.com/Nas-lifes-a-bitch-lyrics'>
+    Visualizin' the realism of life in actuality <br/>
+    Fuck who's the baddest, a person's status depends on salary <br/>
+    And my mentality is money-orientated <br/>
+    I'm destined to live the dream for all my peeps who never made it <br/>
+    'Cause yeah, we were beginners in the hood as Five Percenters <br/>
+</LyricsTile>
 
