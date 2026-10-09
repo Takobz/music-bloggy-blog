@@ -2,3 +2,13 @@ newmusicfriday:
   label: New Music friday
   permalink: /new-music-friday
   description: Looking at music that dropped on Fridays
+
+whyilovemusic:
+  label: Why I love Music
+  permalink: /why-i-love-music
+  description: Just me yapping about moments, times and things that make love MUSIC.
+
+good-albums:
+  label: Good Albums
+  permalink: /good-albums
+  description: Posts about really good albums that I recommend.

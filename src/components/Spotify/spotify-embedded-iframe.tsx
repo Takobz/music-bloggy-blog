@@ -1,5 +1,6 @@
 export interface SpotifyEmbedProps {
-    embedUrl: string
+    embedUrl: string,
+    iframeHeight?: string
 }
 
 const SpotifyEmbeddedIframe = (embedProps: SpotifyEmbedProps) => {
@@ -11,7 +12,7 @@ const SpotifyEmbeddedIframe = (embedProps: SpotifyEmbedProps) => {
                 style={{ borderRadius: "12px" }} 
                 src={spofiyEmbedIframUrl!} 
                 width="100%" 
-                height="352" 
+                height={embedProps.iframeHeight ?? "352"} 
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                 loading="lazy"
             ></iframe>
