@@ -9,7 +9,7 @@ const SpotifyEmbeddedIframe = (embedProps: SpotifyEmbedProps) => {
         <>
             <iframe 
                 data-testid="embed-iframe"
-                style={{ borderRadius: "12px" }} 
+                style={{ borderRadius: "12px", display: "block" }} 
                 src={spofiyEmbedIframUrl!} 
                 width="100%" 
                 height={embedProps.iframeHeight ?? "352"} 

@@ -80,3 +80,13 @@
 [data-theme='dark'] .lyrics-highlight:hover {
   box-shadow: 0 2px 8px rgba(255,255,255,0.05);
 }
+
+/* On mobile, tighten the gap between a media embed (Spotify/YouTube iframe)
+   and the heading that follows it, so embeds don't leave a large strip of
+   whitespace below them. */
+@media (max-width: 768px) {
+  .markdown iframe + h2,
+  .markdown iframe + h3 {
+    margin-top: 1rem;
+  }
+}
